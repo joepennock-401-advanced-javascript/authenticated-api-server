@@ -1,10 +1,10 @@
 [ANOTHER README EXAMPLE HERE](https://github.com/codefellows/seattle-javascript-401n17/blob/master/reference/submission-instructions/labs/example/README.md)
 
-# LAB - Class xx
+# LAB - Class 20
 
-## Project: Project Name Here
+## Project: Authenticated API Server
 
-### Author: Student/Group Name
+### Author: Joe Pennock
 
 ### Links and Resources
 
