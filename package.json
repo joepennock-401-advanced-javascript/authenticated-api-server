@@ -1,0 +1,44 @@
+{
+  "name": "authenticated-api-server",
+  "version": "1.0.0",
+  "description": "A simple API server with authentication built in",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joepennock-401-advanced-javascript/authenticated-api-server.git"
+  },
+  "keywords": [
+    "api",
+    "auth",
+    "server",
+    "node",
+    "express",
+    "rest",
+    "jest"
+  ],
+  "author": "Joe Pennock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joepennock-401-advanced-javascript/authenticated-api-server/issues"
+  },
+  "homepage": "https://github.com/joepennock-401-advanced-javascript/authenticated-api-server#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "mongoose-schema-jsonschema": "^1.4.4"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1"
+  }
+}
