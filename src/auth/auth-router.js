@@ -39,6 +39,7 @@ async function signup(req, res, next){
       role: req.body.role,
     };
 
+    console.log({obj});
     let record = new users(obj);
     let newUser = await record.save();
     let token = record.generateToken();
